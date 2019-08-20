@@ -14,5 +14,4 @@
 
 subdirs = [
     "light",
-    "livedisplay",
 ]

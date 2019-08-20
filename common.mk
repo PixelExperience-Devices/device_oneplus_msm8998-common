@@ -455,6 +455,10 @@ PRODUCT_PACKAGES += \
     android.hardware.vr@1.0-service \
     vr.msm8998
 
+# Wallpapers
+PRODUCT_PACKAGES += \
+	WallpapersBReel2018
+	
 # Weaver
 PRODUCT_PACKAGES += \
     android.hardware.weaver@1.0

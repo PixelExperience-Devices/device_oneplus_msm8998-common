@@ -1,0 +1,28 @@
+[
+  {
+    "repository": "device_oneplus_common",
+    "target_path": "device/oneplus/common"
+  }
+  {
+    "remote":      "github",
+    "repository":  "RaphielGang/android_kernel_oneplus_msm8998",
+    "target_path": "kernel/oneplus/msm8998",
+    "branch":      "pie-r2"
+  },
+  {
+    "repository":  "vendor_oneplus",
+    "target_path": "vendor/oneplus"
+  },
+  {
+    "repository": "packages_apps_WallpapersBReel2018",
+    "target_path": "packages/apps/WallpapersBReel2018",
+    "branch": "pie",
+    "remote": "pixel-gitlab"
+  },
+  {
+    "repository": "Hlcpereira/packages_apps_GoogleCameraMod",
+    "target_path": "packages/apps/GoogleCameraMod",
+    "branch": "pie",
+    "remote": "gitlab"
+  }
+]

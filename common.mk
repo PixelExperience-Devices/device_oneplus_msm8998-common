@@ -25,7 +25,9 @@
 $(call inherit-product, vendor/oneplus/msm8998-common/msm8998-common-vendor.mk)
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-pe
 
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -204,6 +206,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
     android.hardware.gatekeeper@1.0-service
+
+# GoogleCamera
+$(call inherit-product, packages/apps/GoogleCameraMod/oneplus-msm8998/config.mk)
 
 # GPS / Location
 PRODUCT_PACKAGES += \
@@ -463,6 +468,10 @@ PRODUCT_PACKAGES += \
     android.hardware.vr@1.0-service \
     vr.msm8998
 
+# Wallpapers
+PRODUCT_PACKAGES += \
+		WallpapersBReel2018
+
 # Weaver
 PRODUCT_PACKAGES += \
     android.hardware.weaver@1.0
@@ -496,5 +505,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
-# Inherit from oppo-common
-$(call inherit-product, device/oppo/common/common.mk)
+# Inherit from oneplus-common
+$(call inherit-product, device/oneplus/common/common.mk)

@@ -40,7 +40,7 @@
                 android:resource="@drawable/ic_panel_tile" />
             <meta-data
                 android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.homepage" />
+                android:value="com.android.settings.category.ia.display" />
             <meta-data android:name="com.android.settings.summary"
                 android:resource="@string/display_summary" />
         </activity>

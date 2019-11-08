@@ -2,12 +2,12 @@
   {
     "repository": "device_oneplus_common",
     "target_path": "device/oneplus/common"
-  }
+  },
   {
     "remote":      "github",
-    "repository":  "whoknowswhoiam/weebmsm8998-pie",
+    "repository":  "xiaowyyyyya/android_kernel_oneplus_msm8998",
     "target_path": "kernel/oneplus/msm8998",
-    "branch":      "kernel-4.4"
+    "branch":      "master"
   },
   {
     "repository":  "vendor_oneplus",
@@ -24,5 +24,11 @@
     "target_path": "packages/apps/GoogleCameraMod",
     "branch": "pie",
     "remote": "gitlab"
+  },
+  {
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-16.0",
+    "remote": "github"
   }
 ]

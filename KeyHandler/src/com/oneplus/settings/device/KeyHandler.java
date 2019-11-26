@@ -125,13 +125,4 @@ public class KeyHandler implements DeviceKeyHandler {
         }
 	mVibrator.vibrate(50);
     }
-
-    public void handleNavbarToggle(boolean enabled) {
-        SystemProperties.set(FPNAV_ENABLED_PROP, enabled ? "0" : "1");
-    }
-
-    public boolean canHandleKeyEvent(KeyEvent event) {
-        return false;
-        }
-
 }

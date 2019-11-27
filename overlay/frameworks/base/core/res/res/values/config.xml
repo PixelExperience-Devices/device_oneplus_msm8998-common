@@ -691,4 +691,11 @@
     <!-- Disable this by default, since it's actually using the QC FOSS algorithm for
          OLED displays and can cause a bit of discoloration. Reinvestigate after tuning -->
     <bool name="config_defaultCABC">false</bool>
+
+    <!-- Whether the always on display mode is available. -->
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+
+    <!-- Control whether the always on display mode is enabled by default. This value will be used
+         during initialization when the setting is still null. -->
+    <bool name="config_dozeAlwaysOnEnabled">false</bool>
 </resources>

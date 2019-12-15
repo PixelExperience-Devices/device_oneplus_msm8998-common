@@ -713,4 +713,8 @@
     <!-- Control whether the always on display mode is enabled by default. This value will be used
          during initialization when the setting is still null. -->
     <bool name="config_dozeAlwaysOnEnabled">false</bool>
+    
+    <!-- Height of the status bar -->
+    <dimen name="status_bar_height_portrait">80.0px</dimen>
+    <dimen name="status_bar_height_landscape">24.0dp</dimen>
 </resources>

@@ -5,7 +5,7 @@
   },
   {
     "remote":      "github",
-    "repository":  "xiaowyyyyya/android_kernel_oneplus_msm8998",
+    "repository":  "itsjoeoui/android_kernel_oneplus_msm8998",
     "target_path": "kernel/oneplus/msm8998",
     "branch":      "master"
   },

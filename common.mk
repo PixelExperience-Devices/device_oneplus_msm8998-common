@@ -480,3 +480,6 @@ PRODUCT_PACKAGES += \
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
+# APEX
+PRODUCT_COMPRESSED_APEX := false

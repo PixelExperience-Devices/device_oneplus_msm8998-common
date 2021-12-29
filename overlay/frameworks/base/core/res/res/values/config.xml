@@ -575,4 +575,7 @@
     <!-- Whether device has dash charging support -->
     <bool name="config_hasDashCharger">true</bool>
 
+    <!-- Component name of the default wallpaper. This will be ImageWallpaper if not specified -->
+    <string name="default_wallpaper_component">com.breel.wallpapers20a/com.breel.wallpapers20a.gradient.wallpaper.GradientWallpaper</string>
+    
 </resources>
